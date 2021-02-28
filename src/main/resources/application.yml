@@ -1,0 +1,19 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  application:
+    name: actuator example
+    description: spring boot actuator example
+    arctifact: springboot2x-actuator
+    version: v1
+  techstack:
+    java: open jdk 11
+    spring boot: 2.4.2
